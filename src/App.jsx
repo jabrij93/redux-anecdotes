@@ -8,10 +8,7 @@ const App = () => {
 
   const vote = (id) => {
     console.log('vote', id)
-    dispatch({
-      type: 'VOTE_ANECDOTE',
-      payload: { id }
-    })
+    dispatch(increaseVoteOf(id))
   }
 
   return (
