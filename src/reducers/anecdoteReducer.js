@@ -16,7 +16,18 @@ export const increaseVoteOf = (id) => {
   }
 }
 
-export const createAnecdote = (anecdote) => {
+export const createAnecdote = (content) => {
+  return {
+    type: 'NEW_ANECDOTE',
+    payload: {
+      content,
+      id: getId(),
+      votes: 0,
+    }
+  }
+}
+
+const listAnecdote = (anecdote) => {
   return {
     content: anecdote,
     id: getId(),
@@ -24,7 +35,7 @@ export const createAnecdote = (anecdote) => {
   }
 }
 
-const initialState = anecdotesAtStart.map(createAnecdote)
+const initialState = anecdotesAtStart.map(listAnecdote)
 
 const anecdoteReducer = (state = initialState, action) => {
   console.log('state now: ', state)
