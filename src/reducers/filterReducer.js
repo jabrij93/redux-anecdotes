@@ -1,5 +1,18 @@
 import { createSlice, current } from '@reduxjs/toolkit'
 
+  const filterSlice = createSlice({
+    name: 'filter',
+    initialState: '',
+    reducers: {
+      filterChange(state, action) {
+        return action.payload
+      },
+    }
+  })
+
+export const { filterChange } = filterSlice.actions
+export default filterSlice.reducer
+  
 // const filterReducer = (state = '', action) => {
 //     console.log('ACTION: ', action)
 
@@ -17,20 +30,6 @@ import { createSlice, current } from '@reduxjs/toolkit'
 //       payload: filter,
 //     }
 //   }
-
-  const filterSlice = createSlice({
-    name: 'filter',
-    initialState: '',
-    reducers: {
-      filterChange(state, action) {
-        return action.payload
-      },
-    }
-  })
-
-  export const { filterChange } = filterSlice.actions
-  export default filterSlice.reducer
-  
 
   // const anecdoteSlice = createSlice({
   //   name: 'anecdotes',
