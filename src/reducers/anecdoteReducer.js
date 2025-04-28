@@ -12,24 +12,6 @@ const anecdotesAtStart = [
 
 const getId = () => (100000 * Math.random()).toFixed(0)
 
-// export const increaseVoteOf = (id) => {
-//   return {
-//     type: 'VOTE_ANECDOTE',
-//     payload: { id }
-//   }
-// }
-
-// export const createAnecdote = (content) => {
-//   return {
-//     type: 'NEW_ANECDOTE',
-//     payload: {
-//       content,
-//       id: getId(),
-//       votes: 0,
-//     }
-//   }
-// }
-
 const listAnecdote = (anecdote) => {
   return {
     content: anecdote,
@@ -71,6 +53,23 @@ const anecdoteSlice = createSlice({
 export const { createAnecdote, increaseVoteOf } = anecdoteSlice.actions
 export default anecdoteSlice.reducer
 
+// export const increaseVoteOf = (id) => {
+//   return {
+//     type: 'VOTE_ANECDOTE',
+//     payload: { id }
+//   }
+// }
+
+// export const createAnecdote = (content) => {
+//   return {
+//     type: 'NEW_ANECDOTE',
+//     payload: {
+//       content,
+//       id: getId(),
+//       votes: 0,
+//     }
+//   }
+// }
 
 // const anecdoteReducer = (state = initialState, action) => {
 //   switch(action.type) {
