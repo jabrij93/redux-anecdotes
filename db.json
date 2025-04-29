@@ -1,34 +1,89 @@
 {
-    "anecdotes":[
-      {
-        "content": "If it hurts, do it more often",
-        "id": "47145",
-        "votes": 0
-      },
-      {
-        "content": "Adding manpower to a late software project makes it later!",
-        "id": "21149",
-        "votes": 0
-      },
-      {
-        "content": "The first 90 percent of the code accounts for the first 10 percent of the development time...The remaining 10 percent of the code accounts for the other 90 percent of the development time.",
-        "id": "69581",
-        "votes": 0
-      },
-      {
-        "content": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
-        "id": "36975",
-        "votes": 0
-      },
-      {
-        "content": "Premature optimization is the root of all evil.",
-        "id": "25170",
-        "votes": 0
-      },
-      {
-        "content": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
-        "id": "98312",
-        "votes": 0
-      }
-    ]
-  }
+  "anecdotes": [
+    {
+      "content": "If it hurts, do it more often",
+      "id": "47145",
+      "votes": 0
+    },
+    {
+      "content": "Adding manpower to a late software project makes it later!",
+      "id": "21149",
+      "votes": 0
+    },
+    {
+      "content": "The first 90 percent of the code accounts for the first 10 percent of the development time...The remaining 10 percent of the code accounts for the other 90 percent of the development time.",
+      "id": "69581",
+      "votes": 0
+    },
+    {
+      "content": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+      "id": "36975",
+      "votes": 0
+    },
+    {
+      "content": "Premature optimization is the root of all evil.",
+      "id": "25170",
+      "votes": 0
+    },
+    {
+      "content": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
+      "id": "98312",
+      "votes": 0
+    },
+    {
+      "id": "8e60",
+      "content": "try add new anecdote to backend",
+      "votes": 0
+    },
+    {
+      "id": "8672",
+      "content": "try add new anecdote stored in BE",
+      "votes": 0
+    },
+    {
+      "id": "9e06",
+      "content": "try againn",
+      "votes": 0
+    },
+    {
+      "id": "cce2",
+      "content": "try add fagainnn",
+      "votes": 0
+    },
+    {
+      "id": "eda3",
+      "content": "woww againn ? working now ?",
+      "votes": 0
+    },
+    {
+      "id": "413f",
+      "content": "tryy add new ancdote",
+      "votes": 0
+    },
+    {
+      "id": "2339",
+      "content": "lets try againnn",
+      "votes": 0
+    },
+    {
+      "id": "6e23",
+      "content": "it sworking now !",
+      "votes": 0
+    },
+    {
+      "id": "aa79",
+      "content": "try add new",
+      "votes": 0
+    },
+    {
+      "id": "2fa2",
+      "content": "try again with this new code",
+      "votes": 0
+    },
+    {
+      "id": "f149",
+      "content": "workingg",
+      "votes": 0
+    }
+  ]
+}
