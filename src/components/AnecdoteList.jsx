@@ -2,7 +2,6 @@ import { useSelector, useDispatch } from 'react-redux'
 import { increaseVoteOf } from '../reducers/anecdoteReducer'
 import { setNotification, clearNotification } from '../reducers/notificationReducer'
 
-
 const AnecdoteList = () => {
   const anecdotes = useSelector(({ filter, anecdotes }) => {
     return anecdotes.filter(anecdote =>

@@ -3,7 +3,6 @@ import { createAnecdote } from '../reducers/anecdoteReducer'
 import anecdoteService from '../services/anecdotes'
 import { setNotification, clearNotification } from '../reducers/notificationReducer'
 
-
 const AnecdoteForm = () => {
   const dispatch = useDispatch()
 
